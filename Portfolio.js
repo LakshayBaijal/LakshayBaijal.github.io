@@ -10,11 +10,13 @@ menuIcon.onclick = () => {
 
 
 
-let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
 
 
 window.onscroll = () => {
+
+    let sections = document.querySelectorAll('section');
+    let navLinks = document.querySelectorAll('header nav a');
+        
     sections.forEach(sec=> {
         let top= window.scrollY;
         let offset = sec.offsetTop - 100;
