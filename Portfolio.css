@@ -391,13 +391,14 @@ span {
 .skills-column .title{
     font-size: 2.5rem;
     margin: 0 0 1.5rem;
+    
 }
 
 
 .skills-box .skills-content{
     position: relative;
     border: .2rem solid var(--main-color);
-    border-radius: .6rem;
+    border-radius: 2rem;
     padding: .5rem 1.5rem;
     z-index: 1;
     overflow: hidden;
@@ -439,7 +440,7 @@ span {
 }
 
 .skills-content .progress .bar{
-    height: 1.5rem;
+    height: 1.4rem;
     border-radius: 12rem;
     border: .1rem solid var(--main-color);
     padding: .5rem;
